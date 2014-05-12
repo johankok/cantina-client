@@ -21,7 +21,7 @@ Or install it yourself as:
 Configure Devise to use this strategy:
 
 Devise.setup do |config|
-  config.omniauth :cantina_client, 'APP_ID', 'SECRET'
+  config.omniauth :cantina, 'APP_ID', 'SECRET'
 end
 
 Update the User model with a migration:
