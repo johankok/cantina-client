@@ -20,13 +20,13 @@ Or install it yourself as:
 
 Configure Devise to use this strategy:
 
-Devise.setup do |config|
-  config.omniauth :cantina, 'APP_ID', 'SECRET'
-end
+    Devise.setup do |config|
+        config.omniauth :cantina, 'APP_ID', 'SECRET'
+    end
 
 Update the User model with a migration:
 
-  $ rails generate cantina_client
+    $ rails generate cantina_client
 
 ## Contributing
 
